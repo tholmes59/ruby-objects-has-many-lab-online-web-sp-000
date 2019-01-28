@@ -7,7 +7,6 @@ class Author
   
   def self.post_count
     @@song_count
-    
   end
   
   def initialize(name)
