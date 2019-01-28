@@ -13,5 +13,6 @@ class Artist
   
   def song(song)
     @song = song
+  end 
   
 end
