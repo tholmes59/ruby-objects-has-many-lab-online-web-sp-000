@@ -15,7 +15,8 @@ class Song
   end
   
   def artist_name 
-    @name = artist
+    artist.each {|x| x.name}
+   
   end
   
 end
