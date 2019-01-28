@@ -21,13 +21,13 @@ class Song
 end
 
 
-describe '#artist_name' do
-    it 'knows the name of its artist' do
-      drake = Artist.new('Drake')
-      song.artist = drake
-      expect(song.artist_name).to eq('Drake')
-    end
+# describe '#artist_name' do
+#     it 'knows the name of its artist' do
+#       drake = Artist.new('Drake')
+#       song.artist = drake
+#       expect(song.artist_name).to eq('Drake')
+#     end
 
-    it 'returns nil if the song does not have an artist' do
-      expect(song.artist_name).to eq nil
-    end
+#     it 'returns nil if the song does not have an artist' do
+#       expect(song.artist_name).to eq nil
+#     end
